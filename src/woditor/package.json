@@ -1,0 +1,20 @@
+{
+  "name": "woditor",
+  "version": "0.0.1",
+  "description": "Rich Text Editor for React",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-icons": "^4.7.1"
+  },
+  "keywords": [
+    "Rich Text Editor",
+    "react",
+    "Woditor"
+  ],
+  "author": "Yishay Hazan",
+  "license": "ISC"
+}
